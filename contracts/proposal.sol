@@ -90,7 +90,7 @@ contract ProposalContract {
                 }
             }
 
-            function teminateProposal() external onlyOwner active {
+            function terminateProposal() external onlyOwner active {
                 proposal_history[counter].is_active = false;
             }
 
