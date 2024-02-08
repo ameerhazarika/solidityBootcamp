@@ -211,11 +211,11 @@
 	},
 	"sources": {
 		"contracts/proposal.sol": {
-			"keccak256": "0xef2ebe2d3b60825ec490beb3c7984e3805c1e9a284f50d57feac48eca817c030",
+			"keccak256": "0x0c6c9ff0b905e57ca1ab4120f9e3b19b4553b580a16bd76de8f20233939752ff",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d70b197002b4026932fb842ded41b659b4feec24e12020c4e44d3b1edac0d47d",
-				"dweb:/ipfs/QmdykXD6E2STKaQ3WiFkKzWRq5zDHtziaHx1k1raVJXaLd"
+				"bzz-raw://972fca6c72e7d7bef51ea9fcadda9f1e5e604dc60c084b7946b500406964661f",
+				"dweb:/ipfs/QmPn6ZKWgTqWp9FpszuTsR18YQePnRdNZm4C5uMU7QoNVs"
 			]
 		}
 	},
