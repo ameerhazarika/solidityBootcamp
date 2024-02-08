@@ -5,7 +5,7 @@ contract ProposalContract {
     address owner; // address of the owner
     uint256 private counter; // keep track of the ids
     mapping(uint256 => Proposal) proposal_history; // Recordings of previous proposals
-    mapping(address => bool ) voted_addresses; // Addresses that have voted
+    mapping(address => bool ) voted_addresses; // To keep track of whether a user with an address has voted or not
 
 
 
@@ -16,14 +16,14 @@ contract ProposalContract {
                 uint256 reject; // Number of reject votes
                 uint256 pass; // Number of pass votes
                 uint256 total_vote_to_end; // When the total votes in the proposal reaches this limit, proposal ends
-                bool current_state; // This shows the current state of the proposal, meaning whether if passes of fails
+                bool current_state; // This shows the current state of the proposal, meaning whether if it passes or fails
                 bool is_active; // This shows if others can vote to our contract
             }
           
             // CONSTRUCTOR
              constructor() {
                  owner = msg.sender;
-                 //voted_addresses.push(msg.sender); should be able to vote in my own proposal
+                 //voted_addresses.push(msg.sender); removing it since we should be able to vote on our own proposal
             }
             // MODIFIER DEFINITIONS
             modifier onlyOwner() {

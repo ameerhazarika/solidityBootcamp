@@ -164,7 +164,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "teminateProposal",
+				"name": "terminateProposal",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -211,11 +211,11 @@
 	},
 	"sources": {
 		"contracts/proposal.sol": {
-			"keccak256": "0x1afcd47b8ada1f7bedede76b46e614ed9e6ef9728cac4c9bb4bccefc88abddc0",
+			"keccak256": "0xef2ebe2d3b60825ec490beb3c7984e3805c1e9a284f50d57feac48eca817c030",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://57d81232517506ba7de135b9741ef2916139ef031a2c1d5ad2d45e7a471a205f",
-				"dweb:/ipfs/QmT7JaPuu9AfrFBHNTGc9mvmWZPNyN7t3PAgQwnGK4yjPf"
+				"bzz-raw://d70b197002b4026932fb842ded41b659b4feec24e12020c4e44d3b1edac0d47d",
+				"dweb:/ipfs/QmdykXD6E2STKaQ3WiFkKzWRq5zDHtziaHx1k1raVJXaLd"
 			]
 		}
 	},
